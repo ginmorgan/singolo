@@ -1,0 +1,158 @@
+/*font-family: 'Lato', ;*/
+
+/*
+* {
+  border: 0.1px solid red;
+}
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+
+header {
+  background-color: #2d303a;
+  height: 90px;
+  position: relative;
+}
+
+header .header-box {
+  padding: 17px 40px;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: #f06c64;
+}
+
+.nav {
+  color: #ffffff;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav li {
+  font-weight: 700;
+  font-size: 12px;
+  list-style: none;
+  padding-left: 13.3px;
+  text-transform: uppercase;
+  line-height: 3.5;
+}
+
+.nav li::before {
+  content: "·";
+  padding-right: 12px;
+}
+
+.nav li:first-child {
+  color: #f06c64;
+}
+
+.nav li:first-child::before {
+  content: " ";
+  padding-right: 12px;
+}
+
+.header-bottom_line {
+  height: 5px;
+  background-color: #323746;
+}
+
+/* SLIDER */
+
+.top-slider {
+  height: 600px;
+  background-color: #f06c64;
+}
+
+/* OUR SERVICES */
+.our-services-box {
+  padding: 33px 40px;
+  color: #666d89;
+}
+
+.our-services-box h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.our-services-box p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.our-services_info-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.info-box-item {
+  height: 90px;
+  width: 300px;
+  display: flex;
+  margin-bottom: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.info-box-item .item-pic {
+  text-align: center;
+  width: 35px;
+  position: relative;
+  padding: 10px;
+  margin-right: 10px
+}
+
+.circle {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #666d89;
+  border-radius: 50%;
+}
+
+.info-box-item .item_text {
+  margin-left: 10px;
+  width: 220px;
+}
+
+.info-box-item .item_text h3 {
+  font-size: 18px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+.info-box-item .item_text p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify
+}
