@@ -18,6 +18,7 @@ body {
   margin: 0 auto;
 }
 
+/* HEADER */
 
 header {
   background-color: #2d303a;
@@ -88,7 +89,17 @@ header .header-box {
   background-color: #f06c64;
 }
 
+.top-slider-box {
+    padding-top: 55px;
+    text-align: center;
+}
+
 /* OUR SERVICES */
+
+.our-services {
+    background-color: #f2f2f2;
+}
+
 .our-services-box {
   padding: 33px 40px;
   color: #666d89;
@@ -155,4 +166,9 @@ header .header-box {
   font-size: 12px;
   font-weight: 400;
   text-align: justify
+}
+
+.services-bottom_line {
+      height: 5px;
+  background-color: #ffffff;
 }
